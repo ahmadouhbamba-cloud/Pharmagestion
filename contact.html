@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Pharmacie Ndèye Coumba Guédiawaye</title>
+
+</head>
+
+<body>
+
+    <div>
+        <p>
+            <img src="logo.png" alt="" width="60" height="60">
+            <strong>Pharmacie Ndèye Coumba </strong>
+        </p>
+
+        <p>
+        <ul>
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="services.html">Nos services</a></li>
+            <li><a href="horaires.html">Nos Horaires</a></li>
+            <li><a href="catalogue.html">Catalogue</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </p>
+    </div>
+    <hr />
+    <!--Pharmacie Ndèye Coumba-->
+    <div>
+
+        <h1>Nous contacter</h1>
+        <p>Une question sur un produit ou une commande ? Écrivez-nous, nous vous répondons dans la journée.</p>
+
+        <h2>Nos coordonnées</h2>
+        <ul>
+            <li>Adresse: </li>
+            <li>Téléphone:77 000 00 00</li>
+            <li>E-mail : ahmadouh@gmail.sn</li>
+        </ul>
+
+        <h2>Demander un produit</h2>
+        <form action="">
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+
+                <label for="nom">Votre nom</label><br>
+                <input type="text" id="nom" placeholder="Ex. : Awa Ndiaye" minlength="3" maxlength="50" required><br>
+
+                <label for="telephone">Votre téléphone</label><br>
+                <input type="text" id="telephone" placeholder="77 000 00 00" minlength="9" maxlength="12" required><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Votre demande</legend>
+
+                <label for="produit">Produit recherché</label><br>
+                <input type="text" id="produit" placeholder="Ex. : Thermomètre digital" maxlength="80" required><br>
+
+                <label for="quantite">Quantité</label><br>
+                <input type="number" id="quantite" min="1" max="10" step="1" value="1"><br>
+            </fieldset>
+
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Effacer">
+        </form>
+
+        <h2>Nous trouver</h2>
+        <iframe src="https://maps.google.com/maps?q=Gu%C3%A9diawaye &output=embed" width="600" height="400"
+            title="Carte de Guédiawaye : situation de la pharmacie"></iframe>
+    </div>
+
+</body>
+
+</html>
